@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "estudo-comp-quantica"
+version = "0.0.1"
+description = "Repositório Inicial para os estudos de Computação Quântica"
+license = "MIT"
+authors = ["Marcus Freire <marcus.elias@ufba.br>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.11.9"    
+qiskit-ibm-provider = "0.11.0"
+qiskit = {extras = ["visualization"], version = "1.2.0"}
+jupyter = "^1.0.0"
+qiskit-aer = "0.15.0"
+qiskit-ibm-runtime = "0.28.0"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

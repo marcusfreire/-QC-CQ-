@@ -1,7 +1,3 @@
-Aqui está um exemplo de README que cobre os pontos solicitados:
-
----
-
 # Introdução aos Estudos de Computação Quântica
 
 ## Notebooks
@@ -14,6 +10,9 @@ Aqui está um exemplo de README que cobre os pontos solicitados:
 ## Configuração do Ambiente
 
 Para garantir que o ambiente de desenvolvimento esteja configurado corretamente, siga as instruções abaixo:
+
+1. [Instalação do pyenv](#instalação-do-pyenv)
+2. [Configuração do Ambiente Local](#configuração-do-ambiente-local)
 
 ### Instalação do pyenv
 
